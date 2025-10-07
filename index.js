@@ -24,7 +24,6 @@ tema.addEventListener('click', () => {
 
 
 const navLinks = document.querySelectorAll('menu ul a.menu_link');
-console.log(navLinks)
 navLinks.forEach(link => {
   link.addEventListener('click', function(e) {
     e.preventDefault();
